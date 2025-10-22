@@ -1,0 +1,58 @@
+{
+  "categories": {
+    "Programming Languages": {
+      "technologies": [
+        "C++",
+        "C",
+        "Python",
+        "Java"
+      ],
+      "level": "Advanced"
+    },
+    "Machine Learning": {
+      "technologies": [
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn"
+      ],
+      "level": "Intermediate"
+    },
+    "Frontend": {
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React"
+      ],
+      "level": "Intermediate"
+    },
+    "Frameworks": {
+      "technologies": [
+        "Django",
+        "Flask",
+        "Bootstrap"
+      ],
+      "level": "Intermediate"
+    },
+    "Data Visualization": {
+      "technologies": [
+        "Tableau",
+        "Matplotlib",
+        "Seaborn"
+      ],
+      "level": "Intermediate"
+    },
+    "Soft Skills": {
+      "technologies": [
+        "Problem Solving",
+        "Leadership",
+        "Teamwork",
+        "Communication",
+        "Time Management",
+        "Adaptability"
+      ],
+      "level": "Advanced"
+    }
+  }
+}
+

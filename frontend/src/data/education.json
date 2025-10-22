@@ -1,0 +1,94 @@
+{
+  "education": [
+    {
+      "institution": "Atria University",
+      "degree": "Masters in Computer Applications",
+      "duration": "2024 - 2026",
+      "location": "Bangalore, India",
+      "relevant_courses": [
+        "Data Structures and Algorithms",
+        "Object-Oriented Programming",
+        "Database Management Systems",
+        "Operating Systems",
+        "Networks"
+      ],
+      "achievements": [
+        "Technical committee member for FXC Club at Atria Institute of Technology"
+      ]
+    },
+    {
+      "institution": "Aditya University",
+      "degree": "Bachelors in Computer Applications",
+      "duration": "2021 - 2024",
+      "location": "India",
+      "relevant_courses": [
+        "Statistical Methods for Data Science",
+        "Machine Learning and Data Mining",
+        "Data Visualization",
+        "Entrepreneurship",
+        "Tally"
+      ],
+      "achievements": [
+        "Active participation in hackathon competitions",
+        "Open source contributions"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Fundamentals of Watson Analysis",
+      "issuer": "Udemy",
+      "date": "Jul 2025",
+      "skills": "Software Development Life Cycle (SDLC)",
+      "credential_file": "fundamentals of watson analysis.jpg"
+    },
+    {
+      "name": "Google Flutter - Intermediate",
+      "issuer": "Infosys Springboard",
+      "date": "Jul 2025",
+      "skills": "Mobile Applications",
+      "credential_file": "Google flutter.pdf"
+    },
+    {
+      "name": "Hands-on Web Development using Javascript",
+      "issuer": "Infosys Springboard",
+      "date": "Jul 2025",
+      "skills": "Web Development",
+      "credential_file": "Javascript-Hands on web development.pdf"
+    },
+    {
+      "name": "Python for Data Science",
+      "issuer": "Infosys Springboard",
+      "date": "Jul 2025",
+      "skills": "Python (Programming Language)",
+      "credential_file": "Python.pdf"
+    },
+    {
+      "name": "MongoDB Certified DBA Associate (C100DBA)",
+      "issuer": "Infosys Springboard",
+      "date": "Feb 2025",
+      "skills": "Database Administration",
+      "credential_file": "Mongo Db.pdf"
+    },
+    {
+      "name": "C Programming Essentials",
+      "issuer": "Cisco Networking Academy",
+      "date": "2025",
+      "skills": "C (Programming Language)",
+      "credential_file": "C Programming Essentials by Cisco Networking Academy"
+    },
+    {
+      "name": "Introduction to Cyber Security",
+      "issuer": "Cisco Networking Academy",
+      "date": "2025",
+      "skills": "Cybersecurity",
+      "credential_file": "Introduction to cybersecurity"
+    },
+    {
+      "name": "Programming Essentials in Python",
+      "issuer": "Cisco Networking Academy",
+      "date": "2025",
+      "skills": "Python (Programming Language)"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "projects": [
+    {
+      "id": "hate-speech-detector",
+      "name": "LLM-based Hate Speech Detection System",
+      "description": "An intelligent system that uses Large Language Models to detect and classify hate speech in text content with high accuracy.",
+      "technologies": ["Python", "Flask", "OpenAI GPT API", "TensorFlow", "NLTK"],
+      "github_url": "https://github.com/ramachandra/hate-speech-detector",
+      "demo_url": "https://hate-speech-demo.vercel.app",
+      "status": "Completed",
+      "category": "AI/ML",
+      "featured": true
+    },
+    {
+      "id": "eduelect",
+      "name": "EduElect",
+      "description": "A secure, decentralized college voting system using blockchain and facial recognition with liveness detection. Ensures transparency and prevents impersonation in student elections.",
+      "technologies": ["TypeScript", "Blockchain", "Facial Recognition", "Security"],
+      "github_url": "https://github.com/Astrionix/EduElect",
+      "impact": "Revolutionizes digital voting with trust and transparency.",
+      "status": "Completed",
+      "category": "Blockchain"
+    },
+    {
+      "id": "sonic-pulse",
+      "name": "Sonic-pulse",
+      "description": "A live music streaming application enabling real-time audio broadcast and collaboration.",
+      "technologies": ["Python", "Streaming", "Media", "Real-Time"],
+      "github_url": "https://github.com/Astrionix/Sonic-pulse",
+      "impact": "Brings live music experiences to users through AI-enhanced sound.",
+      "status": "Completed",
+      "category": "Media/AI"
+    },
+    {
+      "id": "airquality-sense",
+      "name": "Airquality-sense",
+      "description": "Monitors and analyzes air quality using sensor data and predictive analytics.",
+      "technologies": ["Python", "IoT", "Data Science", "Environment"],
+      "github_url": "https://github.com/Astrionix/Airquality-sense",
+      "impact": "Provides insights into air pollution and helps improve public health.",
+      "status": "Completed",
+      "category": "IoT/Data Science"
+    },
+    {
+      "id": "cinesense",
+      "name": "Cinesense",
+      "description": "AI-driven movie recommendation and emotion analysis system for personalized viewing experiences.",
+      "technologies": ["Python", "AI", "Recommendation System", "Entertainment"],
+      "github_url": "https://github.com/Astrionix/Cinesense",
+      "impact": "Enhances entertainment experiences through emotion-aware recommendations.",
+      "status": "Completed",
+      "category": "AI/Entertainment"
+    },
+    {
+      "id": "library-management",
+      "name": "Library-Management",
+      "description": "A full-stack PHP-based library management system for handling book records, users, and transactions efficiently.",
+      "technologies": ["PHP", "Web App", "Database", "CRUD"],
+      "github_url": "https://github.com/Astrionix/Library-Management",
+      "impact": "Simplifies library workflows through an automated digital interface.",
+      "status": "Completed",
+      "category": "Web Development"
+    }
+  ]
+}

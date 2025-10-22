@@ -22,7 +22,8 @@ groq_client = Groq(api_key=os.getenv('GROQ_API_KEY'))
 # Load portfolio data
 def load_data():
     data = {}
-    data_dir = os.path.join(os.path.dirname(__file__), '..', 'data')
+    # Point to the shared frontend data directory to keep a single source of truth
+    data_dir = os.path.join(os.path.dirname(__file__), '..', 'frontend', 'src', 'data')
     
     data_files = {
         'profile': 'profile.json',

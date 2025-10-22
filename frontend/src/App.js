@@ -1,17 +1,19 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, lazy, Suspense } from 'react';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Experience from './components/Experience';
-import Education from './components/Education';
-import Blogs from './components/Blogs';
-import Contact from './components/Contact';
 import LoadingScreen from './components/LoadingScreen';
 import EventHorizonScene from './components/EventHorizonScene';
 import { useEventHorizonScroll } from './hooks/useEventHorizonScroll';
 import { useData } from './hooks/useData';
+
+// Lazy load heavy components
+const About = lazy(() => import('./components/About'));
+const Projects = lazy(() => import('./components/Projects'));
+const Skills = lazy(() => import('./components/Skills'));
+const Experience = lazy(() => import('./components/Experience'));
+const Education = lazy(() => import('./components/Education'));
+const Blogs = lazy(() => import('./components/Blogs'));
+const Contact = lazy(() => import('./components/Contact'));
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -79,39 +81,53 @@ function App() {
           </section>
 
           {/* About Section */}
-          <section id="about">
-            <About profile={data.profile} data={data} />
-          </section>
+          <Suspense fallback={<div className="min-h-screen" />}>
+            <section id="about">
+              <About profile={data.profile} socials={data.socials} />
+            </section>
+          </Suspense>
 
           {/* Projects Section */}
-          <section id="projects">
-            <Projects projects={data.projects} />
-          </section>
+          <Suspense fallback={<div className="min-h-screen" />}>
+            <section id="projects">
+              <Projects projects={data.projects} />
+            </section>
+          </Suspense>
 
           {/* Skills Section */}
-          <section id="skills">
-            <Skills skills={data.skills} />
-          </section>
+          <Suspense fallback={<div className="min-h-screen" />}>
+            <section id="skills">
+              <Skills skills={data.skills} />
+            </section>
+          </Suspense>
 
           {/* Experience Section */}
-          <section id="experience">
-            <Experience experiences={data.experience} />
-          </section>
+          <Suspense fallback={<div className="min-h-screen" />}>
+            <section id="experience">
+              <Experience experiences={data.experience} />
+            </section>
+          </Suspense>
 
           {/* Education Section */}
-          <section id="education">
-            <Education education={data.education} />
-          </section>
+          <Suspense fallback={<div className="min-h-screen" />}>
+            <section id="education">
+              <Education education={data.education} />
+            </section>
+          </Suspense>
 
           {/* Blogs Section */}
-          <section id="blogs">
-            <Blogs blogs={data.blogs} />
-          </section>
+          <Suspense fallback={<div className="min-h-screen" />}>
+            <section id="blogs">
+              <Blogs blogs={data.blogs} />
+            </section>
+          </Suspense>
 
           {/* Contact Section */}
-          <section id="contact">
-            <Contact socials={data.socials} />
-          </section>
+          <Suspense fallback={<div className="min-h-screen" />}>
+            <section id="contact">
+              <Contact socials={data.socials} />
+            </section>
+          </Suspense>
         </main>
       </div>
     </EventHorizonScene>

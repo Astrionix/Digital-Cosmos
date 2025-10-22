@@ -1,0 +1,16 @@
+services:
+  # Backend API
+  - type: web
+    name: digital-cosmos-backend
+    runtime: python
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: python backend/app.py
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: FLASK_ENV
+        value: production
+      - key: FLASK_DEBUG
+        value: False
+      - key: PORT
+        value: 5000

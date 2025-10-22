@@ -3,8 +3,8 @@ services:
   - type: web
     name: digital-cosmos-backend
     runtime: python
-    buildCommand: pip install -r backend/requirements.txt
-    startCommand: python backend/app.py
+    buildCommand: pip install --upgrade pip && pip install -r backend/requirements-render.txt
+    startCommand: gunicorn --bind 0.0.0.0:$PORT --chdir backend app:app
     envVars:
       - key: GROQ_API_KEY
         sync: false
